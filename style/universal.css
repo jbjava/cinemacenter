@@ -1,0 +1,36 @@
+#body {
+    display: grid;
+    gap: 13px;
+    grid-template-areas: 
+        'he he he'
+        'le co ad';
+    grid-template-columns: 200px auto 25%;
+}
+
+.item {
+    background-color: lightblue;
+}
+
+#heading {
+    grid-area: he;
+}
+
+#left {
+    grid-area: le;
+}
+
+#content {
+    grid-area: co;
+}
+
+#advertisements {
+    grid-area: ad;
+}
+
+.advertisement-image {
+    width: 100%;
+}
+
+.heading {
+    margin: 3px;
+}
