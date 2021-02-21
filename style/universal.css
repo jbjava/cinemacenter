@@ -4,7 +4,7 @@
     grid-template-areas: 
         'he he he'
         'le co ad';
-    grid-template-columns: 200px auto 25%;
+    grid-template-columns: 200px auto 23%;
 }
 
 .item {
@@ -33,4 +33,9 @@
 
 .heading {
     margin: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
