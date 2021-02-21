@@ -10,4 +10,10 @@ window.onload = function() {
 			starsE.appendChild(li);
 		}
 	}
+	var textE = document.getElementById("content-text");
+	var lines = textE.innerHTML.split("\n");
+	textE.innerHTML = "";
+	for (var i = 0; i < lines.length; i++) {
+		textE.innerHTML += '<p class="ind">' + lines[i] + '</p>';
+	}
 }
