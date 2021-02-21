@@ -1,0 +1,16 @@
+#body {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        'he he he'
+        'le co ad';
+	grid-template-columns: 200px auto 23%;
+	margin: 0;
+}
+
+.article-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(70%, 500px)
+}

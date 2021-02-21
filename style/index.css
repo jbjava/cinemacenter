@@ -1,0 +1,32 @@
+#body {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        'he he'
+        'le ad';
+	grid-template-columns: auto 20%;
+	margin: 0;
+}
+
+.article-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(100%, 480px);
+}
+
+.article {
+    display: inline-block;
+    width: max(min(100%, 500px), 0px);
+    text-align: center;
+	color: #000035;
+	text-decoration-line: none;
+}
+
+.article:hover {
+	text-decoration-line: underline;
+}
+
+#left {
+    text-align: center;
+}
