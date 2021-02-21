@@ -16,6 +16,7 @@
 	grid-area: he;
 	background-color: #ff3945;
 	margin: 0;
+	border-bottom: 1px solid black;
 }
 
 #left {
@@ -37,7 +38,6 @@
 .heading {
     margin: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	border-bottom-color: black;
 }
 
 .p {
