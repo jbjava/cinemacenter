@@ -37,6 +37,7 @@
 .heading {
     margin: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-bottom-color: black;
 }
 
 .p {
