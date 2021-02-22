@@ -21,6 +21,15 @@
     grid-area: ad;
 }
 
+#foot {
+	grid-area: fo;
+	text-align: center;
+	font-size: 14px;
+	border-top: #707070 solid 1px;
+	padding: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .advertisement-image {
     width: 100%;
 }

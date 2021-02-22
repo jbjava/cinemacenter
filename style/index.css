@@ -3,7 +3,8 @@
     gap: 5px;
     grid-template-areas: 
         'he he'
-        'le ad';
+        'le ad'
+        'fo fo';
 	grid-template-columns: auto 20%;
 	margin: 0;
 }
