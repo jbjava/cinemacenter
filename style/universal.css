@@ -7,18 +7,19 @@
 	background-color: #ff3945;
 	margin: 0;
 	border-bottom: 1px solid black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #left {
-    grid-area: le;
+	grid-area: le;
 }
 
 #content {
-    grid-area: co;
+	grid-area: co;
 }
 
 #advertisements {
-    grid-area: ad;
+	grid-area: ad;
 }
 
 #foot {
@@ -31,16 +32,20 @@
 }
 
 .advertisement-image {
-    width: 100%;
+	width: 100%;
 }
 
 .heading {
-    margin: 3px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 3px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo-img {
+	height: 65px;
 }
 
 .ind {
@@ -63,5 +68,64 @@ img {
 }
 
 .related:hover {
+	text-decoration-line: underline;
+}
+
+#menu-container {
+	float: right;
+}
+
+.menu {
+	position: unset;
+}
+
+.menu>.it>a {
+	background: grey;
+	color: #000;
+	display: inline-block;
+	padding: 13px 20px;
+	text-align: center;
+	font-size: 19px;
+}
+
+.menu .co {
+	text-decoration: none;
+	height: 0;
+	left: auto;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	transition: all .25s ease;
+	top: auto;
+	right: 0;
+}
+
+.menu .it:hover .co {
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+	box-shadow: 0 0 4px black;
+}
+
+.menu .co a {
+	color: #000;
+	display: block;
+	padding: 5px 20px;
+}
+
+.it {
+	background-color: #ddd;
+	transition: all .25s ease;
+}
+
+.it:hover {
+	background-color: lightsalmon;
+}
+
+.link-inv {
+	text-decoration-line: none;
+}
+
+.link-inv:hover {
 	text-decoration-line: underline;
 }
