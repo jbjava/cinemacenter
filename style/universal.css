@@ -74,9 +74,9 @@ img {
 #menu-container {
 	display: inline-block;
 	text-align: right;
-	position: absolute;
+	position: relative;
 	left: 0;
-	width: 100%;
+	width: calc(100% - 94px);
 }
 
 .menu {
@@ -85,6 +85,7 @@ img {
 }
 
 .menu .dropbutton {
+	padding: 13px 20px;
 	background-color: white;
 	transition: all .25s ease;
 }
